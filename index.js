@@ -1,0 +1,1 @@
+// mouseover 시 darkgray, 글자 간격 벌어지기
