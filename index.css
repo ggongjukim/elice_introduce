@@ -40,6 +40,13 @@ h1{
 }
 #profile{
     width: 300px;
+    height: 500px;
+    border-radius: 5%;
+
+    overflow: hidden;
+}
+#profile div{
+    width: 300px;
     height: 300px;
     border-radius: 5%;
 
@@ -54,9 +61,20 @@ h1{
     width: 300px;
     transform: scale(1.2);
 }
+#profile p{
+    display: none;
+    font-size: 15px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 18px 0;
+}
+#profile p.on{
+    display: block;
+
+}
 
 /* 주제별 영역 */
 #detail{
+    /* margin-top: 200px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
 

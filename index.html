@@ -8,8 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>자기소개 페이지</title>
-    <script src = "index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>ggongjukim 소개</title>
     <link rel="stylesheet" href="index.css">    
 
 </head>
@@ -25,7 +24,16 @@
     <main>
         <h1 id = "name">김채현</h1>
         <article id = "profile">
-            <img src = "chaeso.jpg"/>
+          <div>
+            <img id="main" src = "chaeso.jpg"/>
+
+          </div>
+            <p class = "description" id = "chaeso">우리집 고양이 채소</p>
+            <p class = "description" id = "html">HTML (Hypertext Markup Language,하이퍼텍스트 마크업 언어)는 프로그래밍 언어는 아니고, 우리가 보는 웹페이지가 어떻게 구조화되어 있는지 브라우저로 하여금 알 수 있도록 하는 마크업 언어입니다</p>
+            <p class = "description" id = "css">CSS는 HTML이나 XML로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어입니다</p>
+            <p class = "description" id = "javascript">JavaScript는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다<br> 웹 페이지를 위한 스크립트 언어로 잘 알려져 있지만, Node.js, Apache CouchDB, Adobe Acrobat처럼 많은 비 브라우저 환경에서도 사용하고 있습니다</p>
+            <p class = "description" id = "threejs">Three.js는 웹 브라우저에서 3차원 컴퓨터 그래픽스 애니메이션 응용을 만들고 표현하기 위해 사용되는 자바스크립트 라이브러리이자 API</p>
+
         </article>
         <article id = "detail">
             <section>
@@ -58,32 +66,32 @@
                 <ul class = "skill">
                   <li>
                     <a href="#">
-                    <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=FFFFFF">
+                    <img class="skill_" id="html" src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=FFFFFF">
                     </a>
                   </li>
                   <li>
                     <a href="#"> 
-                    <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=FFFFFF">   
+                    <img class="skill_" id="css"  src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=FFFFFF">   
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                    <img src = "https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=CSS3&logoColor=FFFFFF">   
+                    <img class="skill_" id="javascript"  src = "https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=CSS3&logoColor=FFFFFF">   
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                    <img src = "https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=Three.js&logoColor=FFFFFF">   
+                    <img class="skill_" id="threejs"src = "https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=Three.js&logoColor=FFFFFF">   
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                    <img src = "https://img.shields.io/badge/A_Frame-EF2D5E?style=for-the-badge&logo=A-Frame&logoColor=FFFFFF">   
+                    <img  src = "https://img.shields.io/badge/A_Frame-EF2D5E?style=for-the-badge&logo=A-Frame&logoColor=FFFFFF">   
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                    <img src = "https://img.shields.io/badge/Unity3D-black?style=for-the-badge&logo=Unity&logoColor=FFFFFF">   
+                    <img  src = "https://img.shields.io/badge/Unity3D-black?style=for-the-badge&logo=Unity&logoColor=FFFFFF">   
                     </a>
                   </li>
                   <li>
@@ -102,4 +110,6 @@
         </p>
     </footer>
 </body>
+<script src = "index.js"></script>
+
 </html>
